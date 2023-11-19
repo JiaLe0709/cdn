@@ -66066,8 +66066,8 @@ footer {
 }
 @font-face {
   font-family: "themify";
-  src: url(9bad94440d49256265a5b2305ec42d63.eot);
-  src: url(9bad94440d49256265a5b2305ec42d63.eot?#iefix-fvbane) format("embedded-opentype"), url(29b39089170885ae29671a8c66d85a9f.woff) format("woff"), url(eda8b94308c6f538f04a8056ed761a57.ttf) format("truetype"), url(assets/b3b1be3022a34b6e68bd550daaa48aed.svg#themify) format("svg");
+  src: url(https://cdn.jsdelivr.net/gh/JiaLe0709/cdn/fonts/9bad94440d49256265a5b2305ec42d63.eot);
+  src: url(https://cdn.jsdelivr.net/gh/JiaLe0709/cdn/fonts/9bad94440d49256265a5b2305ec42d63.eot?#iefix-fvbane) format("embedded-opentype"), url(https://cdn.jsdelivr.net/gh/JiaLe0709/cdn/fonts/29b39089170885ae29671a8c66d85a9f.woff) format("woff"), url(https://cdn.jsdelivr.net/gh/JiaLe0709/cdn/fonts/eda8b94308c6f538f04a8056ed761a57.ttf) format("truetype"), url(assets/b3b1be3022a34b6e68bd550daaa48aed.svg#themify) format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -67502,8 +67502,8 @@ footer {
  * -------------------------- */
 @font-face {
   font-family: "FontAwesome";
-  src: url(8b43027f47b20503057dfbbaa9401fef.eot);
-  src: url(8b43027f47b20503057dfbbaa9401fef.eot?#iefix&v=4.7.0) format("embedded-opentype"), url(20fd1704ea223900efa9fd4e869efb08.woff2) format("woff2"), url(f691f37e57f04c152e2315ab7dbad881.woff) format("woff"), url(1e59d2330b4c6deb84b340635ed36249.ttf) format("truetype"), url(assets/0db1520f47986b6c755a66d554bc370d.svg#fontawesomeregular) format("svg");
+  src: url(https://cdn.jsdelivr.net/gh/JiaLe0709/cdn/fonts/8b43027f47b20503057dfbbaa9401fef.eot);
+  src: url(https://cdn.jsdelivr.net/gh/JiaLe0709/cdn/fonts/8b43027f47b20503057dfbbaa9401fef.eot?#iefix&v=4.7.0) format("embedded-opentype"), url(https://cdn.jsdelivr.net/gh/JiaLe0709/cdn/fonts/20fd1704ea223900efa9fd4e869efb08.woff2) format("woff2"), url(https://cdn.jsdelivr.net/gh/JiaLe0709/cdn/fonts/f691f37e57f04c152e2315ab7dbad881.woff) format("woff"), url(https://cdn.jsdelivr.net/gh/JiaLe0709/cdn/fonts/1e59d2330b4c6deb84b340635ed36249.ttf) format("truetype"), url(assets/0db1520f47986b6c755a66d554bc370d.svg#fontawesomeregular) format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -72220,11 +72220,7 @@ A VERTICAL event
     border: 1px solid #ddd;
     border: 1px solid var(--fc-border-color, #ddd);
   }
-.fc {
 
-  /* message when no events */
-
-}
 .fc .fc-list-empty {
     background-color: rgba(208, 208, 208, 0.3);
     background-color: var(--fc-neutral-bg-color, rgba(208, 208, 208, 0.3));
@@ -72236,12 +72232,7 @@ A VERTICAL event
 .fc .fc-list-empty-cushion {
     margin: 5em 0;
   }
-.fc {
 
-  /* table within the scroller */
-  /* ---------------------------------------------------------------------------------------------------- */
-
-}
 .fc .fc-list-table {
     width: 100%;
     border-style: hidden; /* kill outer border on theme */
